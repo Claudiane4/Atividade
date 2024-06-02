@@ -2,9 +2,9 @@
 #include <locale.h>
 
 int main(){
-	int i, votoAmom=0, votdavi=0, votocap=0, votomaria=0, votonulo=0, votobranco=0, a;
+	int i, votoAmom=0, votodavi=0, votocap=0, votomaria=0, votonulo=0, votobranco=0, a;
 	setlocale(LC_ALL,"portuguese");
-	printf("X X X X X X X X X X X X ELEÇÂO 2024 X X X X X X X X X X X X X\n\n\n");
+	printf("X X X X X X X X X X X X ELEÃ‡Ã‚O 2024 X X X X X X X X X X X X X\n\n\n");
 	
 	printf("Candidatos:\n");
 	
@@ -12,7 +12,7 @@ int main(){
 		
 		printf("\n[1]. Amom\n");
 		printf("[2]. Davi Almeida\n");
-		printf("[3]. Capitão Alberto Neto\n");
+		printf("[3]. CapitÃ£o Alberto Neto\n");
 		printf("[4]. Maria do Carmo Seffair\n");
 		printf("[5]. Nulo\n");
 		printf("[6]. Branco\n");
@@ -24,7 +24,7 @@ int main(){
 				votoAmom++;
 				break;
 			case 2:
-				votdavi++;
+				votodavi++;
 				break;
 			case 3:
 				votocap++;
@@ -39,34 +39,34 @@ int main(){
 				votobranco++;
 				break;
 			default:
-				printf("\aEsse candidato não existe\n");
+				printf("\aEsse candidato nÃ£o existe\n");
 		}
 		
 	}
 	
 	printf("Amom teve:%i\n", votoAmom);
-	printf("Davi Almeida teve:%i\n", votdavi);
-	printf("Capitão Alberto Neto teve:%i\n", votocap);
+	printf("Davi Almeida teve:%i\n", votodavi);
+	printf("CapitÃ£o Alberto Neto teve:%i\n", votocap);
 	printf("Maria do carmo Seffair teve:\n", votomaria);
 	printf("Quantidade de votos nulos:%i\n", votonulo);
 	printf("Quantidade de votos em branco:%i\n", votobranco);
 	
-	if(votoAmom>votdavi && votoAmom>votocap&&votoAmom>votomaria){
-		printf("O candidado vencedor é Amom!\n");
+	if(votoAmom>votodavi && votoAmom>votocap&&votoAmom>votomaria){
+		printf("O candidado vencedor Ã© Amom!\n");
 	}
 		else
-		    if(votdavi>votoAmom&&votdavi>votocap&&votdavi>votomaria){
-		    	printf("\no candidato vencedor é Davi ALmeida!\n");
+		    if(votodavi>votoAmom&&votdavi>votocap&&votdavi>votomaria){
+		    	printf("\no candidato vencedor Ã© Davi ALmeida!\n");
 			}
 			else
-			    if(votocap>votdavi&&votocap>votoAmom&&votocap>votomaria){
-			    	printf("\nO candidato vencedor é Capitão Alberto Neto!\n");
+			    if(votocap>votodavi&&votocap>votoAmom&&votocap>votomaria){
+			    	printf("\nO candidato vencedor Ã© CapitÃ£o Alberto Neto!\n");
 				}
 				else
-				    if(votomaria>votoAmom&&votomaria>votdavi&&votomaria>votocap){
-				    	printf("\nO candidato vencedor é Maria do Carmo Seffair!\n");
+				    if(votomaria>votoAmom&&votomaria>votodavi&&votomaria>votocap){
+				    	printf("\nO candidato vencedor Ã© Maria do Carmo Seffair!\n");
 					}else{
-						printf("\nNão tem vencedor!\n");
+						printf("\nNÃ£o tem vencedor!\n");
 					}
 				
     return 0;
