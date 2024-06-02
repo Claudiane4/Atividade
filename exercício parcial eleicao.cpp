@@ -4,7 +4,7 @@
 int main(){
 	int i, votoAmom=0, votodavi=0, votocap=0, votomaria=0, votonulo=0, votobranco=0, a;
 	setlocale(LC_ALL,"portuguese");
-	printf("X X X X X X X X X X X X ELEÇÂO 2024 X X X X X X X X X X X X X\n\n\n");
+	printf("X X X X X X X X X X X X ELEIÇÂO 2024 X X X X X X X X X X X X X\n\n\n");
 	
 	printf("Candidatos:\n");
 	
